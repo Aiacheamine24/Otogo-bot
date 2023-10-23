@@ -12,10 +12,6 @@ const {
   waitForSelector,
   pressKeyboardKey,
 } = require('./utils/puppeteerFunctions');
-const {
-  getBrowserContext,
-  grantWebsiteAuthorization,
-} = require('./utils/puppeteerExtraFunctions');
 const { customWait, fixedWait } = require('./utils/waiting');
 const { getCarsData } = require('./controllers/getCarsData');
 
